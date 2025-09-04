@@ -3,24 +3,24 @@
 	"id": "factory_blocks",
 	"version": "${version}",
 
-	"name": "Factory Blocks Mod",
-	"description": "Adds Factory Blocks to Chisel Reborn or Chipped",
+	"name": "Tyrian Blocks Mod",
+	"description": "Adds Tyrian Blocks to Chisel Reborn or Chipped",
 	"authors": [
 		"slaincow"
 	],
 	"contact":
 	{
-		"sources": "https://github.com/matthewperiut/factory_blocks",
-		"issues": "https://github.com/matthewperiut/factory_blocks/issues"
+		"sources": "https://github.com/RodrigoAyuso/factory_blocks",
+		"issues": "https://github.com/RodrigoAyuso/factory_blocks/issues"
 	},
 
 	"license": "MIT",
-	"icon": "assets/factory_blocks/icon.png",
+	"icon": "assets/tyrian_blocks/icon.png",
 
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.periut.factoryblocks.fabric.FactoryBlocksFabric"
+			"com.ayuso.tyrianblocks.fabric.TyrianBlocksFabric"
 		]
 	},
 	"depends": {

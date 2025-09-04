@@ -1,0 +1,53 @@
+{
+  "item.tyrian_blocks.debug": "Debug Item (will be removed)",
+  "subtitles.factory_block.metal_sound": "Metal Sound",
+  "block.tyrian_blocks.test_block": "Test Block",
+
+  "block.tyrian_blocks.tyrian": "Tyrian Block",
+  "item.tyrian_blocks.tyrian.tooltip": "Metal Plates",
+
+  "block.tyrian_blocks.shining": "Tyrian Block",
+  "item.tyrian_blocks.shining.tooltip": "Disordered Metal Bits",
+
+  "block.tyrian_blocks.chaotic": "Tyrian Block",
+  "item.tyrian_blocks.chaotic.tooltip": "Disordered Purple Bits",
+
+  "block.tyrian_blocks.softplate": "Tyrian Block",
+  "item.tyrian_blocks.softplate.tooltip": "Purple Plates",
+
+  "block.tyrian_blocks.rust": "Tyrian Block",
+  "item.tyrian_blocks.rust.tooltip": "Rust",
+
+  "block.tyrian_blocks.elaborate": "Tyrian Block",
+  "item.tyrian_blocks.elaborate.tooltip": "Shiny Plates",
+
+  "block.tyrian_blocks.routes": "Tyrian Block",
+  "item.tyrian_blocks.routes.tooltip": "Routes",
+
+  "block.tyrian_blocks.platform": "Tyrian Block",
+  "item.tyrian_blocks.platform.tooltip": "Platform",
+
+  "block.tyrian_blocks.platetiles": "Tyrian Block",
+  "item.tyrian_blocks.platetiles.tooltip": "Small Uneven Tiles",
+
+  "block.tyrian_blocks.diagonal": "Tyrian Block",
+  "item.tyrian_blocks.diagonal.tooltip": "Diagonal Plates",
+
+  "block.tyrian_blocks.dent": "Tyrian Block",
+  "item.tyrian_blocks.dent.tooltip": "Dent",
+
+  "block.tyrian_blocks.blueplating": "Tyrian Block",
+  "item.tyrian_blocks.blueplating.tooltip": "Blue Plates",
+
+  "block.tyrian_blocks.black": "Tyrian Block",
+  "item.tyrian_blocks.black.tooltip": "Black Scaled Plates",
+
+  "block.tyrian_blocks.black2": "Tyrian Block",
+  "item.tyrian_blocks.black2.tooltip": "Black Strips",
+
+  "block.tyrian_blocks.opening": "Tyrian Block",
+  "item.tyrian_blocks.opening.tooltip": "Opening",
+
+  "block.tyrian_blocks.plate": "Tyrian Block",
+  "item.tyrian_blocks.plate.tooltip": "Shiny Plate"
+}

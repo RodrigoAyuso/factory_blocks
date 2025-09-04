@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": { "model": "tyrian_blocks:block/plate" }
+  },
+  "athena:loader": "athena:ctm",
+  "ctm_textures": {
+    "center": "tyrian_blocks:block/ctm/plate/4",
+    "empty": "tyrian_blocks:block/ctm/plate/1",
+    "horizontal": "tyrian_blocks:block/ctm/plate/3",
+    "particle": "tyrian_blocks:block/ctm/plate/0",
+    "vertical": "tyrian_blocks:block/ctm/plate/2"
+  }
+}
