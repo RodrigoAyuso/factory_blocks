@@ -36,6 +36,7 @@
     "factory_blocks:wgpanel",
     "factory_blocks:wopanel",
     "factory_blocks:sturdy",
+    "factory_blocks:column",
     "factory_blocks:megacell",
     "factory_blocks:exhaust",
     "factory_blocks:engineer",

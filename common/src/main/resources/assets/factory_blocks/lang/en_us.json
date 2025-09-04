@@ -108,6 +108,9 @@
   "block.factory_blocks.sturdy": "Factory Block",
   "item.factory_blocks.sturdy.tooltip": "Sturdy",
 
+  "block.factory_blocks.column": "Factory Block",
+  "item.factory_blocks.column.tooltip": "Weared metal column",
+
   "block.factory_blocks.megacell": "Factory Block",
   "item.factory_blocks.megacell.tooltip": "Megacell Battery",
 

@@ -1,13 +1,13 @@
 {
   "variants": {
-    "": { "model": "factory_blocks:block/grinder" }
+    "": { "model": "factory_blocks:block/column" }
   },
   "athena:loader": "athena:ctm",
   "ctm_textures": {
-    "center": "factory_blocks:block/ctm/grinder/4",
-    "empty": "factory_blocks:block/ctm/grinder/1",
-    "horizontal": "factory_blocks:block/ctm/grinder/3",
-    "particle": "factory_blocks:block/ctm/grinder/0",
-    "vertical": "factory_blocks:block/ctm/grinder/2"
+    "center": "factory_blocks:block/ctm/column/2",
+    "end": "factory_blocks:block/ctm/column/1",
+    "pillar": "factory_blocks:block/ctm/column/1",
+    "vertical_top": "factory_blocks:block/ctm/column/3",
+    "vertical_bottom": "factory_blocks:block/ctm/column/4"
   }
 }

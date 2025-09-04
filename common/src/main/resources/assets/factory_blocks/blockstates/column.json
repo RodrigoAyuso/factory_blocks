@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": { "model": "factory_blocks:block/column" }
+  },
+  "athena:loader": "athena:pillar",
+  "ctm_textures": {
+    "center": "factory_blocks:block/ctm/column/1",
+    "bottom": "factory_blocks:block/ctm/engineer/0",
+    "top": "factory_blocks:block/ctm/column/2",
+    "particle": "factory_blocks:block/ctm/column/3",
+    "self": "factory_blocks:block/ctm/column/3"
+  }
+}

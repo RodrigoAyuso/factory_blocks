@@ -94,6 +94,7 @@ public class RegisterBlocks
         addFactoryBlock("wgpanel", Type.base);
         addFactoryBlock("wopanel", Type.base);
         addFactoryBlock("sturdy", Type.base);
+        addFactoryBlock("column", Type.base);
         addFactoryBlock("megacell", Type.base);
         addFactoryBlock("exhaust", Type.base);
         addFactoryBlock("engineer", Type.base);
