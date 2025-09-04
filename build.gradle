@@ -28,13 +28,22 @@ subprojects {
     apply plugin: 'maven-publish'
 
     base {
-        // Set up a suffixed format for the mod jar names, e.g. `example-fabric`.
         archivesName = "$rootProject.archives_name-$project.name"
     }
 
     repositories {
         maven { url = "https://maven.terraformersmc.com/" }
-        maven { url "https://maven.periut.com/" }
+        exclusiveContent {
+            forRepository {
+                maven {
+                    name = "Modrinth"
+                    url = "https://api.modrinth.com/maven"
+                }
+            }
+            filter {
+                includeGroup "maven.modrinth"
+            }
+        }
     }
 
     dependencies {
@@ -42,16 +51,18 @@ subprojects {
         mappings loom.layered {
             it.mappings("net.fabricmc:yarn:$rootProject.yarn_mappings:v2")
         }
-        modImplementation "com.periut.cryonicconfig:cryonicconfig-${project.name}:1.0.0+mc${project.minecraft_version}"
-        modImplementation "com.periut.chisel:chisel-${project.name}:2.0.0+mc${project.minecraft_version}"
+
+        if (project.name == "forge") {
+            modImplementation("maven.modrinth:chisel-reborn:forge-1.20.1-2.0.0")
+            modImplementation("maven.modrinth:cryonicconfig:forge-1.20.1-1.0.0")
+        } else {
+            modImplementation("maven.modrinth:chisel-reborn:fabric-1.20.1-2.0.0")
+            modImplementation("maven.modrinth:cryonicconfig:fabric-1.20.1-1.0.0")
+        }
     }
 
     java {
-        // Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
-        // if it is present.
-        // If you remove this line, sources will not be generated.
         withSourcesJar()
-
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
@@ -60,7 +71,6 @@ subprojects {
         it.options.release = 17
     }
 
-    // Configure Maven publishing.
     publishing {
         publications {
             mavenJava(MavenPublication) {
@@ -68,13 +78,8 @@ subprojects {
                 from components.java
             }
         }
-
-        // See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
         repositories {
-            // Add repositories to publish to here.
-            // Notice: This block does NOT have the same function as the block in the top level.
-            // The repositories here will be used for publishing your artifact, not for
-            // retrieving dependencies.
+            // Publishing repositories
         }
     }
 }
